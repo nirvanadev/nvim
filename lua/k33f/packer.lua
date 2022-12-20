@@ -15,7 +15,8 @@ return require('packer').startup(function(use)
 
     use({'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'})
 
-    use 'folke/tokyonight.nvim'
+    -- use 'folke/tokyonight.nvim'
+    use 'rebelot/kanagawa.nvim'
 
     use 'mattn/emmet-vim'
 
