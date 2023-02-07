@@ -178,6 +178,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/k33f/.local/share/nvim/site/pack/packer/start/vim-blade",
     url = "https://github.com/jwalton512/vim-blade"
+  },
+  ["vim-sandwich"] = {
+    loaded = true,
+    path = "/Users/k33f/.local/share/nvim/site/pack/packer/start/vim-sandwich",
+    url = "https://github.com/machakann/vim-sandwich"
   }
 }
 

@@ -28,3 +28,6 @@ vim.keymap.set("n", "N", "Nzzzv")
 
 -- A scary place to end up, so let's bury it
 vim.keymap.set("n", "Q", "<nop>")
+
+-- Vim Emmet Wrapping
+vim.keymap.set("v", "<leader><CR>", "<Plug>(emmet-expand-abbr)")
