@@ -8,8 +8,8 @@ vim.keymap.set("n", "<leader>l", vim.cmd.bnext)
 vim.keymap.set("n", "<leader>h", vim.cmd.bprevious)
 
 -- Quick Saving
-vim.keymap.set("n", "<F1>", ":w<CR><Esc>")
-vim.keymap.set("i", "<F1>", "<Esc>:w<CR><Esc>")
+vim.keymap.set("n", "<C-s>", ":w<CR><Esc>")
+vim.keymap.set("i", "<C-s>", "<Esc>:w<CR><Esc>")
 
 -- Buffer closer
 vim.keymap.set("n", "<Leader>x", ":bp <BAR> bd #<CR>")
