@@ -49,4 +49,10 @@ return require('packer').startup(function(use)
 
     use 'jwalton512/vim-blade'
 
+    -- Org Mode
+    use {'nvim-orgmode/orgmode', config = function()
+        require('orgmode').setup{}
+    end
+}
+
 end)
