@@ -36,4 +36,5 @@ vim.keymap.set("v", "<leader><CR>", "<Plug>(emmet-expand-abbr)")
 vim.keymap.set("n", "<leader>n", ":e ~/Dropbox/org/refile.org<CR>")
 
 -- Orgmode remaps
-vim.keymap.set("i", "<leader><leader><CR>", "<Cmd>lua require('orgmode').action('org_mappings.handle_return')<CR>")
+vim.keymap.set("i", "<S-CR>", "<Cmd>lua require('orgmode').action('org_mappings.handle_return')<CR>")
+vim.keymap.set("n", "<S-CR>", "<Cmd>lua require('orgmode').action('org_mappings.handle_return')<CR>")
