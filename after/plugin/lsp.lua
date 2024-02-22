@@ -10,7 +10,7 @@ lsp.ensure_installed({
 
 lsp.configure('intelephense', {
     on_attach = function(client, bufnr)
-        print('hello intelephense')
+        print('Intelephense started...')
     end,
     settings = {
         intelephense = {
